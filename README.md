@@ -10,7 +10,7 @@ Complete the form using the following values.
 
 **Application name**: Anything you want to call it. This won't effect functionality.
 
-**Homepage URL**: This *must* be the URL to your remix of this Glitch. Go to Show > In a New Window and grab the URL from there. You'll also use this in your NetlifyCMS config.yml
+**Homepage URL**: This *must* be the URL to your app. For example: https://my-cms-oauth.herokuapp.com. You'll also use this as `base_url` in your NetlifyCMS config.yml
 
 **Application description**: Anything you want. This won't effect functionality.
 
@@ -18,7 +18,7 @@ Complete the form using the following values.
 
 ### 3. Add Your OAuth App's Client ID and Secret to .env
 
-In GitHub, go to the GitHub OAuth App you created in step 2. Locate the Client ID and Client Secret. Set those to the `OAUTH_CLIENT_ID` and `OAUTH_CLIENT_SECRET` in `.evn`
+In GitHub, go to the GitHub OAuth App you created in step 2. Locate the Client ID and Client Secret. Set those to the `OAUTH_CLIENT_ID` and `OAUTH_CLIENT_SECRET` in `.env`
 
 ### 4. Configure Your NetlifyCMS client
 
