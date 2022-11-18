@@ -11,7 +11,7 @@
     "tiny-json-http": "7.1.2"
   },
   "engines": {
-    "node": "12.x"
+    "node": "18.x"
   },
   "license": "MIT",
   "keywords": [
@@ -20,6 +20,6 @@
     "auth"
   ],
   "repository": {
-    "url": "https://github.com/digital-land/content-cms-oauth-service"
+    "url": "https://github.com/paulmsmith/cms-oauth-service"
   }
 }
